@@ -1,0 +1,179 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+img{
+    max-width: 100%;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: #FFF8F3;
+    padding: 10px 0px;
+}
+.common-btn{
+    background-color: #FD6E0A;
+    padding: 15px 8px;
+    border-radius: 2px;
+    font-weight: bold;
+    font-size: 25px;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+.hero-parent-root{
+    background-color: #FFF8F3;  
+}
+.inline-btn{
+    background-color: white;
+    padding: 15px 8px;
+    border-radius: 2px;
+    font-weight: bold;
+    font-size: 25px;
+    border: 1px solid #FD6E0A;
+    color: #FD6E0A;
+    cursor: pointer;
+
+}
+.name{
+    font-weight: bold;
+    font-size: 30px;
+    font-family:"open sans";
+}
+.name-r{
+    color: #FD6E0A;
+}
+.container{
+        max-width: 1200px;
+        margin: auto;
+
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    gap: 10px;
+    margin-right: 250px;
+    align-items: center;
+}
+ul li a{
+    text-decoration: none;
+}
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+.hero-parent{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.hero-left-p-1{
+    font-size: 20px;
+    font-weight: 600;
+}
+.hero-left h2{
+    font-weight: bold;
+    font-size: 30px; 
+    margin-bottom: 8px;   
+}
+.hero-left-btn-parent{
+    margin: 10px;
+}
+.about-parent{
+    background-color: #FFF8F3;
+    margin: 70px auto;
+    border-radius: 10px;
+    padding: 90px;
+    text-align: center;
+}
+.about-parent P{
+    margin: 10px 0px; 
+}
+.about-box-parent{
+    display: flex;
+    justify-content: space-between;
+    gap: 8px;
+}
+/* what-i-do-parent section */
+
+.what-i-do-parent{
+    margin: 60px auto;
+    text-align: center;  
+}
+.what-i-do-card-container{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+.what-i-do-card-container .what-i-do-card{
+    border: 2px solid #FD6E0A;
+    text-align: left;
+
+}
+
+/* my amazing work */
+.my-amazing-parent{
+    text-align: center;
+}
+.box-1{
+    grid-area: one ;
+}
+.box-2{
+    grid-area: two;
+}
+.box-3{
+    grid-area: three;
+}
+.box-4{
+    grid-area: four;
+}
+.box-5{
+    grid-area: five;
+}
+.box-6{
+    grid-area: six;
+}
+.gallery{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top:20px ;
+    gap: 10px;
+    grid-auto-rows: 250px;
+    grid-template-areas:
+    "one two three"
+    "four two six"
+    "four five six";
+}
+.gallery img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+
+/* Footer secrion */
+footer{
+    text-align: center;
+    margin-top: 60px !important; 
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    background-color: #FFF8F3;
+
+}
+footer form{
+    padding: 10px;
+}
+footer form input,footer form textarea{
+    border: none;
+    background-color: white;
+    padding: 10px 15px;
+    outline: none;
+    display: block;
+    margin-bottom: 10px;
+    width: 100%;
+    margin-bottom: 10px;
+
+}
+
+
+
